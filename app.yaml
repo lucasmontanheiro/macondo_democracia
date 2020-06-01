@@ -14,3 +14,12 @@ handlers:
 # Serve php scripts.
 - url: /(.+\.php)$
   script: \1
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /assets
+  static_dir: assets
